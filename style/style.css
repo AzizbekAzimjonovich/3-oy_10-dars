@@ -1,0 +1,206 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #212338;
+}
+
+.header {
+    background: #212338;
+    box-shadow: 0px 40px 40px 0px rgba(0, 0, 0, 0.25);
+}
+
+.header div {
+    justify-content: space-between;
+}
+
+nav {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+}
+
+nav li a {
+    color: #FFF;
+    text-decoration: none;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 50% */
+    transition: all 0.5s;
+}
+
+.logo {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px;
+    /* 47.619% */
+    padding: 44px 0px;
+}
+
+.text-orange {
+    color: #BB2A2F;
+}
+
+nav li a:hover {
+    text-decoration: underline;
+    text-decoration-line: 70%;
+    text-underline-offset: 10px;
+    color: #BB2A2F;
+    text-decoration-color: #FFF;
+}
+
+main {
+    background-color: #23253A;
+
+}
+
+.main_container {
+    margin-left: 190px;
+}
+
+.info {
+    align-items: center;
+
+}
+
+.info h1 {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 565px;
+    height: 133px;
+    flex-shrink: 0;
+    margin-top: 200px;
+}
+
+.info>p {
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 50% */
+    margin-top: 50px;
+    margin-bottom: 58px;
+}
+
+.button {
+    display: flex;
+    gap: 26px;
+}
+
+.button button {
+    border-radius: 10px;
+    background: #BB2A2F;
+
+    border: none;
+    gap: 13px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 10px;
+    transition: all 0.5s;
+
+}
+
+.button button p {
+    padding-top: 15px;
+}
+
+.button button:hover {
+    background: #de4045;
+    box-shadow: 4px 2px 10px black;
+}
+.cards{
+    background-color: #23253A;
+}
+
+.cards div {
+    background-color: #23253A;
+    max-width: 1153px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.text{
+font-family: Inter;
+font-size: 32px;
+font-style: normal;
+font-weight: 400;
+line-height: 12px; /* 37.5% */
+}
+.cards div p{
+    margin-bottom: 110px;
+}
+
+.cards div p span {
+    color: #BB2A2F;
+    font-family: Inter;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 12px;
+    /* 19.355% */
+}
+
+.name {
+    margin-top: 67px;
+    text-underline-offset: 10px;
+}
+.cards1{
+    background-color: #2B2E41;
+}
+.cards1{
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.card{
+    background-color: #2B2E41;
+    box-shadow: 40px 40px 40px 0px rgba(0, 0, 0, 0.25);
+    width: 351px;
+    height: 320px;
+    flex-shrink: 0;
+    margin-bottom: 50px;
+}
+.card{
+    padding: 33px;
+}
+.card span{
+    color: #FFF;
+font-family: Inter;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 16px;
+}
+.card p{
+    color: #FFF;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+margin-top: 20px;
+}
+.card a{
+    color: #BB2A2F;
+font-family: Inter;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
